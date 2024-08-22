@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>PESQUISA DE SATISFAÇÃO DO CLIENTE</h2>
+<form action="submit" method="post">
+    <label for="nome" >Nome: </label>
+    <input id="nome" type="text" required placeholder="Escreva seu nome"><br><br>
+
+    <label for="empresa" >Empresa: </label>
+    <input id="empresa" type="text" required placeholder="Escreva o nome da Empresa"><br><br>
+
+    <label for="idade" >Idade: </label>
+    <input id="idade" type="radio" required name="idade">10-20 anos
+    <input id="idade" type="radio" required name="idade">20-30 anos
+    <input id="idade" type="radio" required name="idade">30-50 anos
+    <input id="idade" type="radio" required name="idade">50-80 anos
+
+    <br><br><label for="email" >Email: </label>
+    <input id="email" type="email" required placeholder="Digite seu Email"><br><br>
+
+    <label for="telefone" >Telefone comercial: </label>
+    <input id="telefone" type="text" required placeholder="Digite o telefone">
+
+    <label for="celular" >Celular: </label>
+    <input id="celular" type="text" required placeholder="Digite o numero de celular"><br><br>
+
+    <label for="avaliacao" >Como vc avalia nossos serviços atualmente? </label><br>
+    <input id="avaliacao" type="radio" required name="avaliacao">REGULAR
+    <input id="avaliacao" type="radio" required name="avaliacao">BOM
+    <input id="avaliacao" type="radio" required name="avaliacao">EXCELENTE
+
+    <br><br><label for="nivel de satisfacao" >Qual o nível de satisfação com o
+    atendimento administrativo quando você precisa? </label><br>
+    <input id="nivel de satisfacao" type="radio" required name="nivel de satisfacao">POUCO SATISFATÓRIO
+    <input id="nivel de satisfacao" type="radio" required name="nivel de satisfacao">SATISFATÓRIO
+    <input id="nivel de satisfacao" type="radio" required name="nivel de satisfacao">MUITO SATISFATÓRIO
+
+    <br><br><label for="profissionais" >Os profissionais lhe atendem de forma satisfatória? </label><br>
+    <input id="profissionais" type="radio" required name="profissionais">NÃO
+    <input id="profissionais" type="radio" required name="profissionais">SIM
+
+    <br><br><label for="sugestao" >Você tem alguma sugestão ou crítica a fazer para cada
+  vez mais melhorarmos nossos serviços? </label><br>
+    <textarea id="sugestao" rows="10" cols="100" required placeholder="Deixe aqui sua sugestão"></textarea>
+
+  <h3>Muito Obrigado(a)<br>Sua opinião é fundamental para nós!</h3>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Redefinir</button>
+</form>
+
+</body>
+</html>

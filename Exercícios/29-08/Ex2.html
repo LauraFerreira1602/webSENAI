@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="submit" method="post">
+    <label for="nome do produto" >Nome do produto: </label>
+    <input id="nome do produto" type="text" required placeholder="Escreva o nome do produto"><br><br>
+
+    <label for="descrição do produto" >Descrição: </label><br>
+    <textarea id="descrição do produto" rows="10" cols="100" required placeholder="Descreva o produto"></textarea><br><br>
+
+    <label for="Categoria" >Categoria: </label>
+    <select id="Categoria">
+            <option value="Eletronicos">Eletrônicos</option>
+            <option value="Livros">Livros</option>
+            <option value="Brinquedos">Brinquedos</option>
+            <option value="Esportes">Esportes</option>
+            <option value="Calçados">Calçados</option>
+    </select><br><br>
+
+    <label for="Pais de fabricação" >Pais de fabricação: </label>
+    <select id="Pais de fabricação">
+            <option value="Holanda">Holanda</option>
+            <option value="Estados Unidos">Estados Unidos</option>
+            <option value="Brasil">Brasil</option>
+            <option value="China">China</option>
+            <option value="Japao">Japão</option>
+    </select><br><br>
+
+    <label for="Preço do produto" >Preço: </label>
+    <input id="Preço do produto" type="number" required placeholder="Digite o preço do produto"><br><br>
+
+    <label for="Data de fabricação" >Data de fabricação: </label>
+    <input id="Data de fabricação" type="date" required placeholder="Data de fabricação"><br><br>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Redefinir</button>
+</form>
+</body>
+</html>
