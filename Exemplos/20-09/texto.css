@@ -1,0 +1,40 @@
+p {
+    /*troca cor*/
+    color: hotpink;
+    font-family: "Berlin Sans FB", serif;
+}
+
+
+.frase {
+    color: deeppink;
+    text-decoration: underline;
+    font-family: "Berlin Sans FB", serif;
+}
+
+
+#frase {
+    color: white;
+    /*adiciona fundo a fonte e coloca cor*/
+    background: palevioletred;
+
+    /*alinha a fonte*/
+    text-align: center;
+
+    /*tamanho da fonta*/
+    font-size: 36px;
+
+    /*muda a letra*/
+    font-family: "Berlin Sans FB", serif;
+}
+
+#frase:hover {
+    /*passa o mause que muda acor do fundo*/
+    background-color: mediumvioletred;
+    color: pink;
+}
+
+
+body {
+    /*muda cor do fundo da tela*/
+    background-color: #FFC0CBFF;
+}

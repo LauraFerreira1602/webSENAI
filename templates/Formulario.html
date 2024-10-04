@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tags de Formulario</title>
+</head>
+<body>
+<form action="submit" method="post">
+    <label for="nome" >Nome: </label>
+    <input id="nome" type="text" required placeholder="Escreva seu nome"><br><br>
+
+    <label for="Senha" >Senha: </label>
+    <input id="Senha" type="password" required placeholder="Digite sua senha"><br><br>
+
+    <label for="Mensagem" >Mensagem: </label><br>
+    <textarea id="Mensagem" rows="10" cols="100" required placeholder="Escreva sua mensagem"></textarea><br><br>
+
+    <label for="Cidade" >Cidade: </label>
+    <select id="Cidade">
+        <optgroup label="Vizinhas">
+            <option value="Aracatuba">Araçatuba</option>
+            <option value="Guararapes">Guararapes</option>
+            <option value="Valparaiso">Valparaiso</option>
+            <option value="Rubiacea">Rubiácea</option>
+        </optgroup>
+        <optgroup label="Capitais">
+            <option value="Sao-paulo">São paulo</option>
+            <option value="Rio-de-janeiro">Rio de Janeiro</option>
+        </optgroup>
+    </select><br><br>
+
+    <button type="submit">Salvar</button>
+    <button type="reset">Limpar</button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: lightblue;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+.div1 {
+    background-color: green;
+    display: block;
+    height: 100px;
+}
+
+
+.div2 {
+    background-color: blue;
+    display: inline-block;
+    height: 200px;
+    width: 50vw;
+}
+
+
+.div3 {
+    background-color: yellow;
+    display: inline-block;
+    height: 200px;
+    width: 49vw;
+}
+
+
+.div4 {
+    background-color: green;
+    display: block;
+    height: 100px;
+}
+
+
+p {
+    font-size: 36px;
+    text-align: center;
+}

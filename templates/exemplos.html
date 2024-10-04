@@ -1,0 +1,33 @@
+{% extends 'template.html' %}
+
+{% block conteudo %}
+
+<h1>Exemplos</h1>
+
+
+<div class="card">
+
+    <a href="{{ url_for('exemplos_Divs') }}"
+       title="WYDEN" target=" _blank"> Divs.html</a>
+</div>
+
+
+<div class="card">
+    <a href="{{ url_for('exemplos_Formulario') }}"
+       title="WYDEN" target=" _blank"> Formulario.html</a>
+</div>
+
+
+<div class="card">
+    <a href="{{ url_for('exemplos_Midia') }}"
+       title="WYDEN" target=" _blank"> Midia.html</a>
+</div>
+
+
+<div class="card">
+    <a href="{{ url_for('exemplos_Texto') }}"
+       title="WYDEN" target=" _blank"> Texto.html</a>
+</div>
+
+{% endblock %}
+

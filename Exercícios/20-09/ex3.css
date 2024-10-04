@@ -1,0 +1,101 @@
+h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+.Verde {
+    color: green;
+    font-size: 36px;
+    background: grey;
+}
+
+.Verde:hover {
+    background-color: #FFFFFFFF;
+    color: black;
+}
+
+
+
+.Vermelho {
+    color: red;
+    text-align: center;
+    font-size: 36px;
+    background: grey;
+}
+
+.Vermelho:hover {
+    background-color: #FFFFFFFF;
+    color: black;
+    text-align: justify;
+}
+
+
+
+.Azul {
+    color: blue;
+    text-align: end;
+    font-size: 36px;
+    background: grey;
+}
+
+.Azul:hover {
+    background-color: #FFFFFFFF;
+    color: black;
+    text-align: justify;
+
+}
+
+
+
+.Roxo {
+    color: purple;
+    text-align: center;
+    font-size: 36px;
+    background: grey;
+}
+
+.Roxo:hover {
+    background-color: #FFFFFFFF;
+    color: black;
+    text-align: justify;
+
+}
+
+
+
+.Amarelo {
+    color: yellow;
+    font-size: 36px;
+    background: grey;
+}
+
+.Amarelo:hover {
+    background-color: #FFFFFFFF;
+    color: black;
+}
+
+
+
+.Rosa {
+    color: hotpink;
+    text-align: center;
+    font-size: 36px;
+    background: grey;
+}
+
+.Rosa:hover {
+    background-color: #FFFFFFFF;
+    color: black;
+    text-align: justify;
+
+}
+
+
+body {
+    background-color: #FFFF00FF;
+}
+
+ul {
+    background-color: white;
+}

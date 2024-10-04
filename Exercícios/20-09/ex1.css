@@ -1,0 +1,14 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    color: white;
+    background: red;
+    font-size: 36px;
+}
+
+body {
+    background-color: #000000FF;
+}

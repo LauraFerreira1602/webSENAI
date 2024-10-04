@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+div p {
+    display: inline;
+    font-size: 42px;
+}
+
+
+/*Todos os paragrafos dentro de uma div*/
+.container {
+    display: block;
+    /*largura*/
+    width: 100vw;
+    /*altura*/
+    height: 100vh;
+}
+
+
+.div-block {
+    /*Cor de fundo*/
+    background-color: dodgerblue;
+    /*Block define a largura 100%, padrão da div*/
+    display: block;
+}
+
+
+.div-inline {
+    background-color: royalblue;
+    /*
+    Inline define a largura de acordo com o conteúdo
+    Não aceita modificar largura e altura
+    */
+    display: inline;
+}
+
+
+.div-inline-block {
+    background-color: cornflowerblue;
+    /*
+    inline-block se ajusta ao conteudo
+    podendo modificar altura e largura
+    */
+    display: inline-block;
+    /*margem externa*/
+    margin: 10px;
+    /*margem interna*/
+    padding: 10px;
+    /*espessura, tipo e cor*/
+    border: 5px solid darkslateblue;
+    /*deixa os cantos arredondados*/
+    border-radius: 10px;
+}

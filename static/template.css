@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+header {
+    background-color: #9370DBFF;
+    display: block;
+    height: 65px;
+    border-bottom: 1px solid;
+    font-size: 36px;
+}
+
+nav {
+    background-color: #9370DBFF;
+    display: inline-block;
+    height: 100vh;
+    width: 12vw;
+    border-right: 1px solid;
+    text-align: center;
+    float: left;
+}
+
+main {
+    display: inline-block;
+    width: 83vw;
+    background-color: white;
+    height: 100vh;
+    font-size: 16px;
+}
+
+.exercicios {
+    display: inline-block;
+    background-color: rebeccapurple;
+    height: 130px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    border-radius: 10px;
+    border: 4px solid black;
+
+}
+
+
+a {
+    color: black;
+}
+
+
+a:hover {
+    color: white;
+}
+
+.card {
+    display: inline-block;
+    background-color: rebeccapurple;
+    height: 16px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    border-radius: 10px;
+    border: 4px solid black;
+}
+
+a {
+    display: block;
+}
